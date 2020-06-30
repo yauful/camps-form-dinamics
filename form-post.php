@@ -1,5 +1,8 @@
 <?php
 
+date_default_timezone_set('UTC');
+$data = date("m.d.y"); 
+
 $nombre = $_POST['nombre'];
 $email= $_POST['email'];
 
@@ -8,6 +11,8 @@ echo $email;
 echo "<br>";
 echo $nombre;
 echo "<br>";
+echo "<hr>";
+echo $data;
 echo "<hr>";
 
 $numberNFacturas = count($_POST["nFactura"]);
