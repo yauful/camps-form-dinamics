@@ -1,7 +1,7 @@
 <?php
 
 date_default_timezone_set('UTC');
-$data = date("m.d.y"); 
+$data = date("d.m.y"); 
 
 $nombre = $_POST['nombre'];
 $email= $_POST['email'];
